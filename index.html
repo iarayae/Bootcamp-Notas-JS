@@ -18,6 +18,17 @@
     <!-- Contenedor Principal -->
     <div class="container py-5">
         <h1 class="text-center fw-bold mb-5">Notas Finales</h1>
+        <!-- Información Alumno -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label fw-bold">Nombre:</label>
+                <input type="text" id="nombre" class="form-control" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="carrera" class="form-label fw-bold">Carrera:</label>
+                <input type="text" id="carrera" class="form-control" placeholder="Ingresa tu carrera">
+            </div>
+        </div>
 
         <!-- Tabla de Notas -->
         <table class="table table-bordered table-striped text-center">
@@ -33,6 +44,11 @@
             <tbody id="tabla-contenido">   
             </tbody>
         </table>
+
+        <!-- Promedio Final -->
+        <div id="promedio-final" class="text-center mt-4 fw-bold fs-4">
+        </div>
+    
     </div>
 
 </body>
